@@ -1,3 +1,5 @@
+package net.demomaker.busnetworkgenerator.view;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -5,11 +7,8 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-public class JImagePanel extends JPanel {
+public class JMapPanel extends JPanel {
     private BufferedImage image;
-    public JImagePanel() {
-
-    }
 
     public void SetImageFromFile(File imageFile) {
         try {
