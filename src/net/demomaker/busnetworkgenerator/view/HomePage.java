@@ -11,12 +11,6 @@ public class HomePage extends JFrame {
     private static final String DEFAULT_TITLE = "Bus Network Generator";
     private static final String TITLE_FORMAT = "%s : %s, %s";
     private JPanel panel1;
-    private JImagePanel JImagePanel1;
-
-    public HomePage(JPanel panel1, JImagePanel jImagePanel1) {
-        this.panel1 = panel1;
-        JImagePanel1 = jImagePanel1;
-    }
 
     public HomePage() {
         this(DEFAULT_TITLE);
@@ -40,6 +34,8 @@ public class HomePage extends JFrame {
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
+        final JImagePanel jImagePanel1 = new JImagePanel();
+        panel1.add(jImagePanel1, BorderLayout.CENTER);
     }
 
     private void updateTitle() {
@@ -69,8 +65,6 @@ public class HomePage extends JFrame {
     private void $$$setupUI$$$() {
         panel1 = new JPanel();
         panel1.setLayout(new BorderLayout(0, 0));
-        final JImagePanel jImagePanel1 = new JImagePanel();
-        panel1.add(jImagePanel1, BorderLayout.CENTER);
     }
 
     /**

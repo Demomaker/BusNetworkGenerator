@@ -6,11 +6,6 @@
     </constraints>
     <properties/>
     <border type="none"/>
-    <children>
-      <component id="9fb32" class="net.demomaker.busnetworkgenerator.view.JImagePanel">
-        <constraints border-constraint="Center"/>
-        <properties/>
-      </component>
-    </children>
+    <children/>
   </grid>
 </form>
