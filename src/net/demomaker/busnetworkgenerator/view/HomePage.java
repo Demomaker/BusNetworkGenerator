@@ -63,14 +63,14 @@ public class HomePage extends JFrame {
      * @noinspection ALL
      */
     private void $$$setupUI$$$() {
-        panel1 = new JPanel();
-        panel1.setLayout(new BorderLayout(0, 0));
+        panel1 = new javax.swing.JPanel();
+        panel1.setLayout(new java.awt.BorderLayout(0, 0));
     }
 
     /**
      * @noinspection ALL
      */
-    public JComponent $$$getRootComponent$$$() {
+    public javax.swing.JComponent $$$getRootComponent$$$() {
         return panel1;
     }
 

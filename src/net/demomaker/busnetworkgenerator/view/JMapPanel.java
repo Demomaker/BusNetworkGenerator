@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class JMapPanel extends JPanel {
     private BufferedImage image;
-
+    //TestChange
     public void SetImageFromFile(File imageFile) {
         try {
             image = ImageIO.read(imageFile);
