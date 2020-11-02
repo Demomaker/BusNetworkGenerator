@@ -1,5 +1,6 @@
 # BusNetworkGenerator
 An app made in Java, with IntelliJ and Swing to generate Bus Networks from a google maps link.
+This might not work as intended because of how limiting the Google Maps API is in terms of number of usages.
 
 Rough draft of the design : 
 
